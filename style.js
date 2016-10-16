@@ -18,14 +18,18 @@ let style = StyleSheet.create({
   },
   dateInput: {
     flex: 1,
-    height: 40,
     borderWidth: 1,
-    borderColor: '#aaa',
-    alignItems: 'center',
+    borderColor: '#ccc',
+    borderRadius: 3,
+    paddingLeft: 10,
+    paddingRight: 10,
+    height: 40,
     justifyContent: 'center'
   },
   dateText: {
-    color: '#333'
+    color: '#000',
+    fontSize: 15,
+    lineHeight: 24
   },
   placeholderText: {
     color: '#c9c9c9'
