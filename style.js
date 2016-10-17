@@ -32,7 +32,8 @@ let style = StyleSheet.create({
     lineHeight: 24
   },
   placeholderText: {
-    color: '#c9c9c9'
+    color: '#575757',
+    fontSize: 15
   },
   datePickerMask: {
     flex: 1,
@@ -56,7 +57,7 @@ let style = StyleSheet.create({
   },
   btnTextText: {
     fontSize: 16,
-    color: '#46cf98'
+    color: '#990033'
   },
   btnTextCancel: {
     color: '#666'
